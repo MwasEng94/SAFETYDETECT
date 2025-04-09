@@ -1,7 +1,4 @@
 uvicorn
 fastapi
 ultralytics
-cv2
-numpy
-typing
-time
+
