@@ -14,7 +14,7 @@ def process_image_detection(uploaded_file, confidence_threshold):
         with st.spinner("Detecting hazards..."):
             files = {"file": uploaded_file.getvalue()}
             response = requests.post(
-                "http://localhost:8000/detect/image",
+                "https://safetydetect.onrender.com/detect/image",
                 files=files
             )
             
